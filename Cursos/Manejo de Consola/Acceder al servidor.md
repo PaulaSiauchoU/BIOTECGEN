@@ -10,6 +10,6 @@ descargarse del sitio oficial https://filezilla-project.org/download.php?type=se
 
 En este tutorial utilizaremos MobaXterm, siguiendo las indicaciones dadas a continuación para el ingreso al servidor:
 Una vez abierto MobaXterm, en el menú presione el botón **Session** (1) y seleccione el botón **SSH** (2). A continuación, en la campo de **Remote host** ingrese el valor 
-`190.144.111.166`(3). Seleccione la casilla de **Specify username** (4) e ingrese el valor `curso`. Asegúrese de que el puerto sea 22 (5). Presione OK.
+`190.144.111.166`(3). Seleccione la casilla de **Specify username** (4) e ingrese el valor `curso`(5). Asegúrese de que el puerto sea 22. Presione OK.
 
-MobaXterm1.PNG
+![Intrucciones para acceder a la consola](https://github.com/PaulaSiauchoU/BIOTECGEN/blob/main/Cursos/Manejo%20de%20Consola/MobaXterm1.PNG)
