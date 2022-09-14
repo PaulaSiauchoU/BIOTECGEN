@@ -8,5 +8,5 @@ Esta es una línea de código
 
 ```
    var="Hola Mundo"
-   print=var
+   print(var)
 ```
