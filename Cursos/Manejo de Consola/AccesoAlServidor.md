@@ -14,7 +14,7 @@ En este tutorial utilizaremos MobaXterm, siguiendo las indicaciones dadas a cont
 
 * Ingrese la contraseña que corresponde al usuario. Aunque no aparecen caracteres cuando se está escribiendo, en realidad se está escribiendo la contraseña. Luego presione la tecla Enter. Ahora hemos accedido al servidor y estamos en nuestro directorio home del ambiente Unix.
 
-![Imagen de la consola una vez entramos con nuestras credenciales](https://github.com/jidiaz/BTG-CP/blob/main/Cursos/Manejo%20de%20Consola/MobaXterm2.PNG)
+![Imagen de la consola una vez entramos con nuestras credenciales](https://github.com/PaulaSiauchoU/BIOTECGEN/blob/main/Cursos/Manejo%20de%20Consola/MobaXterm2.PNG)
 
 ## Sistema operativo Linux
 
