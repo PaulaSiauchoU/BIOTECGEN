@@ -4,5 +4,5 @@
 ### Contenido
 
 
-1.[Introducción al manejo de la terminal](https://github.com/jidiaz/BTG-CP/tree/main/Cursos/Manejo%20de%20Consola)
+1.[Introducción al manejo de la terminal](https://github.com/PaulaSiauchoU/BIOTECGEN/tree/main/Cursos/Manejo%20de%20Consola)
 
