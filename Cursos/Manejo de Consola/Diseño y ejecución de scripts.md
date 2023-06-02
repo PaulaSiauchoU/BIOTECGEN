@@ -24,7 +24,7 @@ $ nano Saludo.sh
 
 Cuando se ejecute el comando aparecerá en pantalla el editor de nano:
 
-![Resultado del comando `ls -l` en la carpeta del archivo Saludo.sh](https://github.com/jidiaz/BTG-CP/blob/main/Cursos/Manejo%20de%20Consola/PermisosArchivos.PNG)
+![Resultado del comando `ls -l` en la carpeta del archivo Saludo.sh](https://github.com/PaulaSiauchoU/BIOTECGEN/blob/main/Cursos/Manejo%20de%20Consola/PermisosArchivos.PNG)
 ## Esquema de scripts 
 Los scripts suelen tener tres componentes principales. 
 1. Línea de código que indica cómo debe ser intrerpretado el script. Inicia con una secuencia de carácteres llamada shebang o shabang compuesta por un numeral(#) y un signo de exclamación cerrado (!), y se completa con la ubicación del intrérprete en el equipo. 
