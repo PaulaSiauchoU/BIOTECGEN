@@ -67,7 +67,7 @@ grep amor SorJuana.txt
 Obtendremos el resultado de la imagen 
 
 
-![grep ejemplo 1](https://github.com/jidiaz/BTG-CP/blob/main/Cursos/Manejo%20de%20Consola/Regex1.PNG)
+![grep ejemplo 1](https://github.com/PaulaSiauchoU/BIOTECGEN/blob/main/Cursos/Manejo%20de%20Consola/Regex1.PNG)
 
 La salida del comando muestra la línea en el archivo donde se entontró el patrón a buscar. Es importante recordar que Linux es sensible a las mayúsculas a menos que se le indique lo contrario. Por eso, si usamos el comando
 
@@ -76,7 +76,7 @@ grep Amor SorJuana.txt
 ```
 vamos a obtener un resultado diferente: 
 
-![grep ejemplo 2](https://github.com/jidiaz/BTG-CP/blob/main/Cursos/Manejo%20de%20Consola/Regex2.PNG)
+![grep ejemplo 2](https://github.com/PaulaSiauchoU/BIOTECGEN/blob/main/Cursos/Manejo%20de%20Consola/Regex2.PNG)
 
 Ahora vamos a buscar todas las pabras que terminen en 's',
 
@@ -84,7 +84,7 @@ Ahora vamos a buscar todas las pabras que terminen en 's',
 grep s\  SorJuana.txt
 ````
 Nótese que los caracteres no solo incluyen las letras de la 'a' a la 'z' sino también cualquier caracter como espacio. En este caso se debe anteponer la barra inclinada `\` para indicar que el espacio después debe ser interpretado como un caracter y no como un cambio de parámetro. Después de aplicar el comando anterior el resultado sería el siguiente:
-![grep ejemplo 3](https://github.com/jidiaz/BTG-CP/blob/main/Cursos/Manejo%20de%20Consola/Regex3.PNG)
+![grep ejemplo 3](https://github.com/PaulaSiauchoU/BIOTECGEN/blob/main/Cursos/Manejo%20de%20Consola/Regex3.PNG)
 
 Linux solo reconoció aquellas palabras que después de la 's' final tenían un espacio. Si quisiéramos incluir además aquellas que están seguidas de una coma `,` el comando podría ser el siguiente: 
 
@@ -93,7 +93,7 @@ grep "s\ \|s," SorJuana.txt
 ```
 En este caso se puso la expresión regular entre comillas para que el operador "O" pudiera ser interpretado correctamente. El resultado de se ve en la siquiente imagen
 
-![ejemplo grep 4](https://github.com/jidiaz/BTG-CP/blob/main/Cursos/Manejo%20de%20Consola/Regex4.PNG)
+![ejemplo grep 4](https://github.com/PaulaSiauchoU/BIOTECGEN/blob/main/Cursos/Manejo%20de%20Consola/Regex4.PNG)
 
 Como hemos visto en los ejemplos anteriores, por defecto ´grep´ imprime en pantalla las líneas donde se encuentra el patrón de caracteres que coincide. Sin embargo, ¿qué se hace en el caso necesitemos contar el número de coincidencias? En ese caso le tenemos que pedir al comando que cuente el número de ocurrencias. Para eso redirigimos la salida de `grep` como entrada de `wc` con la opción `-l`:
 
@@ -102,7 +102,7 @@ grep -o "s\ \|s," SorJuana.txt | wc -l
 ```
 la salida de este comando es 
 
-![ejemplo grep 5](https://github.com/jidiaz/BTG-CP/blob/main/Cursos/Manejo%20de%20Consola/Regex5.PNG)
+![ejemplo grep 5](https://github.com/PaulaSiauchoU/BIOTECGEN/blob/main/Cursos/Manejo%20de%20Consola/Regex5.PNG)
 
 Si hacemos el conteo manual del ejemplo 4, vemos que el número de palabras terminadas en 's' coincide con 15. 
 
