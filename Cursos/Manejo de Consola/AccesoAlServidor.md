@@ -25,7 +25,7 @@ MacOS y en Linux cuentan con todo lo necesario para comenzar. Usted puede usar S
 Para salir de un ordenador remoto, desconectando la conexión, utilize el comando exit. Por ejemplo: 
 
 ```bash
-p.siaucho@cb-data:~$ exit
+p.siaucho@servidor:~$ exit
 ```
 **NOTA.** Algunas características importantes para tener en cuenta de la línea de comando de Linux, son:
 
